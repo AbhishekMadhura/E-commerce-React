@@ -1,0 +1,33 @@
+/* src/pages/Payment.css */
+.payment-container {
+    width: 80%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the payment form */
+    padding: 20px; /* Add some padding */
+    border: 1px solid #e0e0e0; /* Light border around the form */
+    border-radius: 4px; /* Rounded corners */
+    background-color: #fff; /* White background */
+}
+
+button {
+    background-color: #28a745; /* Green background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 10px 15px; /* Padding */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin-top: 10px; /* Space above the button */
+}
+
+button:disabled {
+    background-color: #ccc; /* Gray background when disabled */
+}
+
+.error {
+    color: red; /* Red color for error messages */
+    margin-top: 10px; /* Space above error message */
+}
+
+.success {
+    color: green; /* Green color for success messages */
+    margin-top: 10px; /* Space above success message */
+}
