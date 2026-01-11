@@ -10,6 +10,7 @@ import './App.css';
 import ProductDetails from "./pages/ProductDetails";
 import Footer from "./components/Footer";
 
+
 function App() {
   return (
     <div>
